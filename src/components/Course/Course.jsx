@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
-const Course = ({ course }) => {
-  const { course_name,img_url,details,price, credit } = course;
+const Course = ({ course, handleEnroll }) => {
+  const { course_name, img_url, details, price, credit } = course;
   return (
     <div>
       {/* dauisy-card  */}
@@ -17,7 +17,9 @@ const Course = ({ course }) => {
             <p>Credit : {credit} hr</p>
           </div>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary w-full bg-[#2F80ED] text-white rounded-xl font-semibold p-3">Select</button>
+            <button onClick={() => handleEnroll(course)} className="btn btn-primary w-full bg-[#2F80ED] text-white rounded-xl font-semibold p-3">
+              Select
+            </button>
           </div>
         </div>
       </div>
@@ -28,6 +30,7 @@ const Course = ({ course }) => {
 
 Course.propTypes = {
   course: PropTypes.object.isRequired,
+  handleEnroll: PropTypes.func,
 };
 
 export default Course;
