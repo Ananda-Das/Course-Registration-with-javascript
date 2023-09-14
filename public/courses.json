@@ -5,15 +5,15 @@
     "course_name": "Introduction to OOP Python",
     "credit": 5,
     "price": 39999,
-    "details": "Become a full-stack web developer with this comprehensive course. Learn front-end and back-end development, including HTML, CSS, JavaScript, Node.js, and more."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 2,
     "img_url": "https://i.ibb.co/bRws43v/Rectangle-2-1.png",
-    "course_name": "Python Programming Fundamentals",
+    "course_name": "Python Programming",
     "credit": 3,
     "price": 29999,
-    "details": "Master the fundamentals of Python programming. This course covers Python syntax, data structures, and problem-solving with Python."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "course_name": "Front-End Web Development",
     "credit": 2,
     "price": 24999,
-    "details": "Focus on front-end web development skills. Learn HTML, CSS, and JavaScript for creating interactive and responsive web interfaces."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "course_name": "JavaScript Mastery",
     "credit": 2,
     "price": 19999,
-    "details": "Dive deep into JavaScript with this advanced course. Explore modern JavaScript features, asynchronous programming, and building dynamic web applications."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 5,
@@ -37,23 +37,23 @@
     "course_name": "React.js for Beginners",
     "credit": 2,
     "price": 19999,
-    "details": "Get started with React.js, a popular JavaScript library for building user interfaces. Learn component-based development and state management."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 6,
     "img_url": "https://i.ibb.co/51sN1DH/Rectangle-2-5.png",
-    "course_name": "Back-End Web Development with Node.js",
+    "course_name": "Back-End Web Development",
     "credit": 3,
     "price": 29999,
-    "details": "Become a back-end web developer using Node.js. Explore server-side development, REST APIs, and database integration."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 7,
     "img_url": "https://i.ibb.co/6XmMLrH/Rectangle-2-6.png",
-    "course_name": "Web Security and Ethical Hacking",
+    "course_name": "Web Security",
     "credit": 3,
     "price": 34999,
-    "details": "Learn about web security and ethical hacking. Understand common vulnerabilities and how to secure web applications."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 8,
@@ -61,14 +61,14 @@
     "course_name": "Java Programming Essentials",
     "credit": 3,
     "price": 29999,
-    "details": "Master the fundamentals of Java programming. Cover object-oriented concepts, data structures, and application development."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   },
   {
     "id": 9,
     "img_url": "https://i.ibb.co/T4VZ4bt/Rectangle-3-1.png",
-    "course_name": "Mobile App Development with Flutter",
+    "course_name": "Mobile App Development",
     "credit": 4,
     "price": 39999,
-    "details": "Create cross-platform mobile apps with Flutter. Learn UI design, widget development, and app deployment to iOS and Android."
+    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
   }
 ]
