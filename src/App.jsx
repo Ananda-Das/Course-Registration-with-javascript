@@ -19,7 +19,7 @@ function App() {
     let totalCredit = enroll.credit;
 
     if (isEnroll) {
-      toast.error("already added");
+      toast.error("This course you already enrolled");
     } else {
       enrolls.forEach((item) => {
         totalCredit = totalCredit + item.credit;
@@ -28,7 +28,7 @@ function App() {
       const remainingCredit = 20 - totalCredit;
 
       if (totalCredit > 20) {
-        toast.error("Max Credit Enrolled!");
+        toast.error("You don't enough Credit to Enrolle this course!");
       }else {
         const newEnroll = [...enrolls, enroll];
         setEnrolls(newEnroll);
