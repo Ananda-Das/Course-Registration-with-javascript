@@ -8,16 +8,16 @@ const Course = ({ course, handleEnroll }) => {
       {/* dauisy-card  */}
       <div className="card card-compact w-80 bg-base-100 shadow-xl p-5">
         <figure>
-          <img className="w-full" src={img_url} alt="Shoes" />
+          <img className="w-full py-2" src={img_url} alt="Shoes" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-[#1C1B1B] font-semibold text-xl">{course_name}</h2>
-          <p className="font-normal ">{details}</p>
+          <h2 className="card-title text-[#1C1B1B] font-semibold text-xl py-2">{course_name}</h2>
+          <p className="font-normal py-2">{details}</p>
           <div className="flex justify-between">
-            <p className="flex items-center"> <span><FaDollarSign /></span> <span>  Price : {price}</span></p>
-            <p className="flex items-center"> <span><FaBookOpen /> </span>  <span className="ml-1">    Credit : {credit} hr </span></p>
+            <p className="flex items-center py-2"> <span><FaDollarSign /></span> <span>  Price : {price}</span></p>
+            <p className="flex items-center py-2"> <span><FaBookOpen /> </span>  <span className="ml-1">    Credit : {credit}hr </span></p>
           </div>
-          <div className="card-actions justify-end">
+          <div className="card-actions justify-end py-2">
             <button onClick={() => handleEnroll(course)} className="btn btn-primary w-full bg-[#2F80ED] text-white rounded-xl font-semibold p-3">
               Select
             </button>

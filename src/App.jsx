@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className="flex gap-3">
+      <div className="flex w-[95%] mx-auto gap-9">
         <div>
           <Courses handleEnroll={handleEnroll}></Courses>
         </div>
