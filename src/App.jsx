@@ -6,14 +6,23 @@ import Header from "./components/Header/Header";
 
 function App() {
   const [enrolls, setEnrolls] = useState([]);
+  const [totalCredit, setTotalCredit] = useState(0);
   const handleEnroll = (enroll) => {
     const isEnroll = enrolls.find((item) => item.id === enroll.id);
+
+    let totalCredit = enroll.credit;
+
     if (isEnroll) {
       alert("already added");
     } else {
-      console.log(enrolls);
+      enrolls.forEach((item) => {
+        totalCredit = totalCredit + item.credit;
+      });
+
       const newEnroll = [...enrolls, enroll];
       setEnrolls(newEnroll);
+
+      setTotalCredit(totalCredit);
     }
   };
   return (
@@ -21,7 +30,7 @@ function App() {
       <Header></Header>
       <div className="flex gap-3">
         <Courses handleEnroll={handleEnroll}></Courses>
-        <Enrolls enrolls={enrolls}></Enrolls>
+        <Enrolls enrolls={enrolls} totalCredit={totalCredit} ></Enrolls>
       </div>
     </>
   );
