@@ -18,7 +18,11 @@ For state management, I have used the useState hook. One variable is used to sto
 
 ## In App.jsx Component
 
-I have used three states. They are enrolls, totalCredits, remainingCredit. They are passed as props in the courses component. Each state are controlled by the useSate hook. For Object I used empty array & for number I used zero (0). The functions of these states were used to set the value.
+I have used three states. They are enrolls, totalCredits, remainingCredit. They are passed as props in the courses component. Each state are controlled by the useSate hook. For Object I used empty array & for number I used zero (0). The functions of these states were used to set the value. 
+- In enrolls state I used it to enroll the subject after a user use the select button. The setEnrolls function is used to create a array list of a user enrolls list. 
+- In totalCredits state I used it to calculate the total Credit of user enrolled Course. The setTotalCredits function is used to update the totalCredit as a user enroll more course. In this project a user can enroll upto 20hr total credit.
+- In remaingCredit state I used it to calculate the remaining credit of the user enrolled course. As in this project a user can take upto 20hr credit so I need to calucate how many credit left after a user enroll a course & show it to the user. The setRemainingCredit function is used to update the remainingCredit state as user enroll more course & show him/her how many credit hour he/she left.
+
 
 ## In Courses.jsx Component
 
