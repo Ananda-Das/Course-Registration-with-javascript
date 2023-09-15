@@ -6,16 +6,22 @@ import Header from "./components/Header/Header";
 
 function App() {
   const [enrolls, setEnrolls] = useState([]);
-  const handleEnroll = (course) => {
-    const newBookMarks = [...enrolls, course];
-    setEnrolls(newBookMarks);
+  const handleEnroll = (enroll) => {
+    const isEnroll = enrolls.find((item) => item.id === enroll.id);
+    if (isEnroll) {
+      alert("already added");
+    } else {
+      console.log(enrolls);
+      const newEnroll = [...enrolls, enroll];
+      setEnrolls(newEnroll);
+    }
   };
   return (
     <>
       <Header></Header>
       <div className="flex gap-3">
         <Courses handleEnroll={handleEnroll}></Courses>
-        <Enrolls enrolls={enrolls} ></Enrolls>
+        <Enrolls enrolls={enrolls}></Enrolls>
       </div>
     </>
   );

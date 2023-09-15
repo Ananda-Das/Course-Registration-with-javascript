@@ -4,9 +4,9 @@ const Enroll = ({enroll}) => {
     const {course_name} = enroll;
     return (
         <div>
-            <ol>
+            <ul>
                 <li className="text-2xl">{course_name}</li>
-            </ol>
+            </ul>
             {/* <h3 ></h3> */}
         </div>
     );
