@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
 
-const Enroll = ({enroll}) => {
+const Enroll = ({enroll,index}) => {
     const {course_name} = enroll;
     return (
         <div>
             <ul>
-                <li className="text-2xl">{course_name}</li>
+                <li className="text-xl">{index} {course_name}</li>
             </ul>
-            {/* <h3 ></h3> */}
         </div>
     );
 };
 
 Enroll.propTypes = {
     enroll: PropTypes.object,
+    index: PropTypes.number,
 };
 
 export default Enroll;
