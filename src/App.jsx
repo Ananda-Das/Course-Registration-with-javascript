@@ -28,7 +28,7 @@ function App() {
       const remainingCredit = 20 - totalCredit;
 
       if (totalCredit > 20) {
-        alert("Max Credit Enrolled!");
+        toast.error("Max Credit Enrolled!");
       } else {
         const newEnroll = [...enrolls, enroll];
         setEnrolls(newEnroll);
