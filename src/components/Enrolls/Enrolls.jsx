@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import Enroll from "../Enroll/Enroll";
 
+
 const Enrolls = ({ enrolls, totalCredit, remainingCredit }) => {
   return (
     <div>

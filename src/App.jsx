@@ -3,6 +3,8 @@ import "./App.css";
 import Courses from "./components/Courses/Courses";
 import Enrolls from "./components/Enrolls/Enrolls";
 import Header from "./components/Header/Header";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [enrolls, setEnrolls] = useState([]);
@@ -17,14 +19,13 @@ function App() {
     let totalCredit = enroll.credit;
 
     if (isEnroll) {
-      alert("already added");
+      toast.error("already added");
     } else {
       enrolls.forEach((item) => {
         totalCredit = totalCredit + item.credit;
       });
 
       const remainingCredit = 20 - totalCredit;
-
 
       if (totalCredit > 20) {
         alert("Max Credit Enrolled!");
@@ -40,8 +41,13 @@ function App() {
     <>
       <Header></Header>
       <div className="flex gap-3">
-        <Courses handleEnroll={handleEnroll}></Courses>
-        <Enrolls enrolls={enrolls} totalCredit={totalCredit} remainingCredit={remainingCredit}></Enrolls>
+        <div>
+          <Courses handleEnroll={handleEnroll}></Courses>
+        </div>
+        <div>
+          <Enrolls enrolls={enrolls} totalCredit={totalCredit} remainingCredit={remainingCredit}></Enrolls>
+          <ToastContainer />
+        </div>
       </div>
     </>
   );
