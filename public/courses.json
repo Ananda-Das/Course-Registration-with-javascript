@@ -5,7 +5,7 @@
     "course_name": "Introduction to OOP Python",
     "credit": 5,
     "price": 39999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Explore the fundamentals of Object-Oriented Programming (OOP) in Python. Learn classes, inheritance, encapsulation, and polymorphism through hands-on coding exercises. Ideal for beginners."
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "course_name": "Database (MySQL)",
     "credit": 3,
     "price": 29999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Comprehensive MySQL course covers fundamentals, querying, data manipulation, schema design, and advanced topics. Hands-on exercises included. Suitable for beginners to advanced users."
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "course_name": "Introduction to C",
     "credit": 10,
     "price": 24999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Learn the fundamentals of C programming, including variables, control structures, functions, and memory management. Develop basic coding skills in a hands-on, beginner-friendly course."
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "course_name": "Introduction to Algorithms",
     "credit": 2,
     "price": 19999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Learn fundamental algorithm design and analysis principles. Topics include sorting, searching, data structures, and algorithmic problem-solving techniques. Ideal for computer science students."
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "course_name": "Introduction to C++ for DSA",
     "credit": 2,
     "price": 19999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Explore the fundamentals of C++ programming, data structures, and algorithmic concepts. Learn to solve complex problems efficiently in this comprehensive course designed for aspiring programmers."
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "course_name": "Software Engineering",
     "credit": 3,
     "price": 29999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Software Engineering course covers software development principles, lifecycle models, coding, testing, and project management, preparing students for a career in software development."
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "course_name": "Problem-Solving Part",
     "credit": 3,
     "price": 34999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "This course equips learners with essential problem-solving skills, including critical thinking, creative problem-solving techniques, and effective decision-making, fostering a practical problem-solving mindset."
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "course_name": "Basic Data Structures",
     "credit": 3,
     "price": 29999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Learn fundamental data structures such as arrays, linked lists, stacks, and queues. Understand their operations and applications in programming, fostering essential problem-solving skills."
   },
   {
     "id": 9,
@@ -69,6 +69,6 @@
     "course_name": "AWS, Cloud Computing",
     "credit": 4,
     "price": 39999,
-    "details": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+    "details": "Learn AWS services, infrastructure as code, security, and best practices for cloud computing in this comprehensive course. Hands-on labs included. Duration: Flexible Prerequisites: Basic IT knowledge."
   }
 ]
